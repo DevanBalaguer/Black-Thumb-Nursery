@@ -26,10 +26,12 @@ html {
 .nav-bar a {
   text-decoration: none;
   color: #182126;
+  font-size: 1.2em;
 }
 
 .nav-links a:hover {
   color: #5A8C7E;
+  font-weight: bold;
 }
 
 li {
@@ -174,7 +176,7 @@ footer a {
 
   .box {
     height: 110px;
-    width: 250px;
+    width: 220px;
   }
 
   .the-team h2 {
@@ -244,4 +246,11 @@ footer a {
    padding-left: 5em;
    padding-right: 5em;
   }
+
+  .box {
+    height: 350px;
+    width: 125px;
+    box-shadow: 5px 5px 5px black;
+  }
+
 }
